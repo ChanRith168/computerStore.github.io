@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&family=Oswald:wght@500&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(180deg , rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('Computer-Logo-Designs.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+.main{
+    height:500px;
+    width: 1000px;
+}
+.bg-img{
+    color: rgb(28, 27, 27);
+    background: url('computer-image-660.jpg');
+    background-position: center;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+.form-login{
+    font-family: 'Oswald', sans-serif;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
