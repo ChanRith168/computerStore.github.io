@@ -1,0 +1,53 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.grid{
+   height: 300px;
+   background-color: rgb(162, 155, 155);
+   display: flex;
+   width: 65%;
+   margin: auto;
+   align-items: center;
+   justify-content: center;
+   background-image: url('Computer-Logo-Designs.jpg');
+   background-position: center;
+   background-size: cover;
+}
+.grid ul{
+    display: flex;
+    gap: 2rem;
+}
+.grid ul a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+.btn{
+    width: 200px;
+}
+.drop-menue{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    width: 65%;
+    background: rgb(210, 210, 210);
+    height: 0px;
+    overflow: hidden;
+    transition: all 0.5s;
+    margin: auto;
+}
+
+.category {
+    width: 65%;
+    height: 0px;
+    background-color: aqua;
+    margin: auto;
+    transition: all 0.5s;
+    overflow: hidden;
+    color: aliceblue;
+    font-size: 20px;
+}
